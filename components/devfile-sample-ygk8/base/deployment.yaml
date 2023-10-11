@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ygk8
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-rkqf-tenant/e2e-nodejs/devfile-sample-ygk8@sha256:149793609279af7e1e3c160d49d620cf0fd8e4a0f44686bee49e021f03c83408
         name: my-nodejs
         ports:
         - containerPort: 3001
